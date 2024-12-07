@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .container ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .container ul li {
+  margin: 0 15px;
+}
+
+nav .container ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 15px;
+}
+
+nav .container ul li a:hover {
+  background-color: #0077b5; 
+  border-radius: 5px;
+}
+
+/* About Section */
+.bio {
+  font-size: 1.3em;
+}
+
+#about {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+#about h1 {
+  font-size: 2.5em;
+}
+
+#about .cta {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#about .cta:hover {
+  background-color: #0077b5;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section .button, .cta {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section .button:hover, .cta:hover {
+  background-color: #555;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contacts {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#contacts .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#contacts .contact-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-icon i {
+  font-size: 40px;
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icon:hover i {
+  color: #0077b5;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
