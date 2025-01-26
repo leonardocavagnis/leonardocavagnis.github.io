@@ -173,3 +173,31 @@ footer {
 footer p {
   margin: 0;
 }
+
+/* Talks - Image section */
+#talks .row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#talks .col img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#talks .col img:hover {
+  transform: scale(1.1);
+}
+
+.lightbox {
+  display: inline-block;
+}
+
+.lightbox img {
+  max-height: 300px;
+  width: auto; 
+  margin: 0 auto;
+  display: block;
+}
