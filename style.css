@@ -125,6 +125,30 @@ section ul li {
   margin-bottom: 10px;
 }
 
+/* Talks Section */
+#talks .row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+#talks .row img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  flex: 1 1 150px;
+  max-width: 100%;
+}
+
+/** Layout per mobile **/
+@media (max-width: 768px) {
+  #talks .row img {
+    flex: 1 1 100%;
+    height: auto;
+  }
+}
+
 /* Contact Section */
 #contacts {
   background-color: #f7f7f7;
@@ -172,17 +196,4 @@ footer {
 
 footer p {
   margin: 0;
-}
-
-/* Talks - Image section */
-#talks .row {
-  display: flex;
-  justify-content: center; /* Centra le immagini rispetto al contenuto */
-  gap: 5px; /* Distanza tra le immagini */
-}
-
-#talks .row img {
-  width: auto;
-  height: 150px; /* Altezza uniforme */
-  object-fit: cover; /* Adatta l'immagine mantenendo le proporzioni */
 }
