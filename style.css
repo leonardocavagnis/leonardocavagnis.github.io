@@ -33,13 +33,14 @@ nav {
 nav .container ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 
 nav .container ul li {
-  margin: 0 15px;
+  margin: 5px 10px;
 }
 
 nav .container ul li a {
@@ -96,6 +97,7 @@ nav .container ul li a:hover {
 section {
   padding: 40px 0;
   text-align: center;
+  scroll-margin-top: 80px;
 }
 
 section h2 {
